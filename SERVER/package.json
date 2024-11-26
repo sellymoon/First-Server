@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "API para gerenciar posts com MongoDB",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "license": "AGPL-version-3.0"
+}
